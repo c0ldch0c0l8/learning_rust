@@ -2,6 +2,8 @@
 // mod fibonacci;
 // mod christmas;
 
+// mod guess_the_number_game;
+
 fn main() {
     println!("Hello, world!");
 
@@ -17,4 +19,7 @@ fn main() {
     // println!("{}", nth);
 
     // christmas::twelve_days_christmas();
+
+
+    // guess_the_number_game::run();
 }
