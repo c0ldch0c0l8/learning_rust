@@ -4,6 +4,8 @@
 
 // mod guess_the_number_game;
 
+// mod first_word;
+
 fn main() {
     println!("Hello, world!");
 
@@ -22,4 +24,11 @@ fn main() {
 
 
     // guess_the_number_game::run();
+
+
+    // let hi = String::from("Hi Abdullah!");
+    // println!("{}", first_word::func(&hi[..]));
+
+    // let hey = "Hey Abdullah!";
+    // println!("{}", first_word::func(hey));
 }
