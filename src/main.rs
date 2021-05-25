@@ -1,4 +1,4 @@
-// // mod temperature;
+// mod temperature;
 // mod fibonacci;
 // mod christmas;
 
@@ -6,8 +6,10 @@
 
 // mod first_word;
 
+// mod structs;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world!\n");
 
     // let f = 85.3;
     
@@ -31,4 +33,15 @@ fn main() {
 
     // let hey = "Hey Abdullah!";
     // println!("{}", first_word::func(hey));
+
+
+    // let user1 = structs::User::new_user(String::from("example@gmail.com"), true, String::from("red"));
+    // println!("User 1's description:\n{}", user1.get_desc());
+
+    // let user1 = structs::User {
+    //     fav_color: String::from("blue"),
+    //     ..user1
+    // };
+
+    // println!("\nUser 1's new description:\n{}", user1.get_desc());
 }
