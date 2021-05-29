@@ -8,6 +8,8 @@
 
 // mod structs;
 
+// mod Coins;
+
 fn main() {
     println!("Hello, world!\n");
 
@@ -44,4 +46,13 @@ fn main() {
     // };
 
     // println!("\nUser 1's new description:\n{}", user1.get_desc());
+
+
+    // let coin = Coins::Coin::Penny;
+    // let val = Coins::get_value(coin);
+    // println!("{}", val);
+
+    // let coin = Coins::Coin::Quarter(Coins::USState::Alaska);
+    // let val = Coins::get_value(coin);
+    // println!("{}", val);
 }
