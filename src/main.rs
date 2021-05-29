@@ -8,8 +8,8 @@
 
 // mod structs;
 
-mod Coins;
-use Coins::{get_value, Coin, USState};
+mod coins;
+use coins::{get_value, Coin, USState};
 
 fn main() {
     println!("Hello, world!\n");
