@@ -8,7 +8,8 @@
 
 // mod structs;
 
-// mod Coins;
+mod Coins;
+use Coins::{get_value, Coin, USState};
 
 fn main() {
     println!("Hello, world!\n");
@@ -48,11 +49,15 @@ fn main() {
     // println!("\nUser 1's new description:\n{}", user1.get_desc());
 
 
-    // let coin = Coins::Coin::Penny;
-    // let val = Coins::get_value(coin);
-    // println!("{}", val);
+    let coin = Coin::Penny;
+    let val = get_value(coin);
+    println!("{}", val);
 
-    // let coin = Coins::Coin::Quarter(Coins::USState::Alaska);
-    // let val = Coins::get_value(coin);
-    // println!("{}", val);
+    let coin = Coin::Quarter(USState::Alaska);
+    let val = get_value(coin);
+    println!("{}", val);
+
+    // mod is used to start a module or import one
+    // Most imported stuff is private (except Enum parts, etc??),
+    // and u can make them pub, by using the keyword: pub
 }
