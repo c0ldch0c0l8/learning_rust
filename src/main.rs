@@ -8,8 +8,11 @@
 
 // mod structs;
 
-mod coins;
-use coins::{get_value, Coin, USState};
+// mod coins;
+// use coins::{get_value, Coin, USState};
+
+// mod stats;
+// mod pig_latin;
 
 fn main() {
     println!("Hello, world!\n");
@@ -49,15 +52,28 @@ fn main() {
     // println!("\nUser 1's new description:\n{}", user1.get_desc());
 
 
-    let coin = Coin::Penny;
-    let val = get_value(coin);
-    println!("{}", val);
+    // let coin = Coin::Penny;
+    // let val = get_value(coin);
+    // println!("{}", val);
 
-    let coin = Coin::Quarter(USState::Alaska);
-    let val = get_value(coin);
-    println!("{}", val);
+    // let coin = Coin::Quarter(USState::Alaska);
+    // let val = get_value(coin);
+    // println!("{}", val);
 
+    
     // mod is used to start a module or import one
     // Most imported stuff is private (except Enum parts, etc??),
     // and u can make them pub, by using the keyword: pub
+
+    
+    // let vec: Vec<i32> = vec![17, 69, 3, 3, 26, 98, 3, 99, 70, 69, 11];
+    // let (avg, median, mode) = stats::get_central_tendency(&vec);
+    // println!("Avg: {} Median: {} Mode: {}", avg, median, mode);
+
+
+    // let strings = vec![String::from("Apple"), String::from("First")];
+    // let pig_latin = pig_latin::func(&strings);
+    // for string in &pig_latin {
+    //     println!("{}", string);
+    // }
 }
