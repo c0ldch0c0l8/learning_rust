@@ -15,6 +15,8 @@
 // mod pig_latin;
 // mod employee; // not finished
 
+// mod read_username;
+
 fn main() {
     println!("Hello, world!\n");
 
@@ -77,4 +79,14 @@ fn main() {
     // for string in &pig_latin {
     //     println!("{}", string);
     // }
+
+    
+    // let username = match read_username("txt") {
+    //     Ok(username) => username,
+    //     Err(e) => panic!("Error: {:?}", e)
+    // };
+    // let username = std::fs::read_to_string("txt").unwrap();
+    
+    // println!("{}", username);
 }
+
