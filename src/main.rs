@@ -17,6 +17,8 @@
 
 // mod read_username;
 
+// mod generics;
+
 fn main() {
     println!("Hello, world!\n");
 
@@ -88,5 +90,19 @@ fn main() {
     // let username = std::fs::read_to_string("txt").unwrap();
     
     // println!("{}", username);
-}
 
+    
+    // let (v1, v2) = (10, 100);
+    // println!("{}", generics::larger(v1, v2));
+
+    // let (str1, str2) = ("str1 short", "str2 looooooooooooooong");
+    // println!("{}", generics::longer(str1, str2));
+
+    // let pair1: generics::Pair<i32, f64> = generics::Pair { item1: 1, item2: 9.99 };
+    // let pair2: generics::Pair<char, char> = generics::Pair { item1: 'f', item2: 'f' };
+    // let pair3 = generics::Pair::mixup(&pair1, &pair2);
+
+    // pair1.print();
+    // pair2.print();
+    // pair3.print();
+}
